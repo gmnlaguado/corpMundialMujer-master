@@ -1,0 +1,12 @@
+﻿.idea
+.buildozer
+
+windows/__pycache__/
+codes/__pycache__/
+declarations/__pycache__/
+
+api/venv/
+api/src/.env
+
+.vscode
+workspace.code-workspace

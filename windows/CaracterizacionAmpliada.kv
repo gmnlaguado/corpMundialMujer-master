@@ -1,0 +1,206 @@
+<AcceptFormCaracterizacionAmpliada>:
+    id_acceptButton: id_acceptButton
+    top: 800-232
+    x: 357
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Button_352_64:
+            id: id_acceptButton
+            x: 464
+            top: 800 - 467
+            text: "Continuar"
+
+<InformacionHijos>:
+    id_container_grid: id_container_grid
+    id_botonAceptar: id_botonAceptar
+
+    background:"images/green_background.png"
+    background_color: (0,0,0, 0.8)
+    separator_color: 0,0,0,0
+    title_size: 43
+    font_name: "montserrat"
+    title_align: "center"
+    title_color: 0,0,0,1
+    size_hint: None, None
+    size: 1150, 500
+    top: 800-88
+    x: 65
+    BoxLayout:
+        orientation: "vertical"
+        size_hint: None, None
+        size: 1200,400
+        ScrollView:
+            size: self.size
+            GridLayout:
+                cols: 4
+                id: id_container_grid
+                size_hint_y:None
+                spacing:32
+        Label_888_48:
+            size_hint_x: 1
+            text: "Una vez ingresada la informacion, presione Aceptar"
+            bold: False
+        Button_352_64:
+            id: id_botonAceptar
+            pos_hint: {'center_x': 0.5}
+            text: "Aceptar"
+
+<InformacionPersonasACargo>:
+    id_container_grid: id_container_grid
+    id_botonAceptar: id_botonAceptar
+
+    background:"images/green_background.png"
+    background_color: (0,0,0, 0.8)
+    separator_color: 0,0,0,0
+    title_size: 43
+    font_name: "montserrat"
+    title_align: "center"
+    title_color: 0,0,0,1
+    size_hint: None, None
+    size: 1150, 500
+    top: 800-88
+    x: 65
+    BoxLayout:
+        orientation: "vertical"
+        size_hint: None, None
+        size: 1200,400
+        ScrollView:
+            size: self.size
+            GridLayout:
+                cols: 4
+                id: id_container_grid
+                size_hint_y:None
+                spacing:32
+        Label_888_48:
+            size_hint_x: 1
+            text: "Una vez ingresada la informacion, presione Aceptar"
+            bold: False
+        Button_352_64:
+            id: id_botonAceptar
+            pos_hint: {'center_x': 0.5}
+            text: "Aceptar"
+
+<CaracterizacionAmpliadaScreen>:
+
+    id_title: id_title
+    id_adittionalStudies: id_adittionalStudies
+    id_studies: id_studies
+    id_workingRelationship: id_workingRelationship
+    id_freelance: id_freelance
+    id_householdHead: id_householdHead
+    id_householdMembers: id_householdMembers
+    id_healthRegime: id_healthRegime
+    id_maritalStatus: id_maritalStatus
+    id_agreementType: id_agreementType
+    id_rut: id_rut
+    id_childrenNumber: id_childrenNumber
+    id_dependants: id_dependants
+    id_coverTheFamily: id_coverTheFamily
+    id_averageIncomeContract: id_averageIncomeContract
+    id_averageIncomeActivity: id_averageIncomeActivity
+    id_childrenInformation: id_childrenInformation
+    id_dependantsInformation: id_dependantsInformation
+    id_pension: id_pension
+    id_arl: id_arl
+    id_factorsThatPreventYou: id_factorsThatPreventYou
+    id_observations: id_observations
+    id_message: id_message
+    id_signInButton: id_signInButton
+    id_agreementTime: id_agreementTime
+
+    id_homeButton: id_homeButton
+
+    Layout_1150_623:
+        Label_888_48:
+            id: id_title
+        Input_1107_40:
+            id: id_adittionalStudies
+            top: 800 - 117
+            text_type: "text"
+        HomeButton:
+            id: id_homeButton
+        BoxLayoutFull:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 365
+            top: 800-187
+            x: 88
+            spacing: 25
+            Spinner_352_40:
+                id: id_studies
+            Spinner_352_40:
+                id: id_workingRelationship
+                font_size: 14
+            Spinner_352_40:
+                id: id_freelance
+            Spinner_352_40:
+                id: id_householdHead
+            Spinner_352_40:
+                id: id_householdMembers
+                font_size: 14
+            Spinner_352_40:
+                id: id_healthRegime
+        BoxLayoutFull:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 365
+            top: 800-187
+            x: 465
+            spacing: 25
+            Spinner_352_40:
+                id: id_maritalStatus
+            Spinner_352_40:
+                id: id_agreementType
+            Spinner_352_40:
+                id: id_rut
+            Spinner_352_40:
+                id: id_childrenNumber
+            Spinner_352_40:
+                id: id_dependants
+                font_size: 14
+            Spinner_352_40:
+                id: id_coverTheFamily
+        BoxLayoutFull:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 365
+            top: 800-187
+            x: 842
+            spacing: 25
+            Spinner_352_40:
+                id: id_agreementTime
+                font_size: 14
+            Spinner_352_40:
+                id: id_averageIncomeContract
+                font_size: 14
+            Spinner_352_40:
+                id: id_averageIncomeActivity
+                font_size: 14
+            Button_352_40:
+                id: id_childrenInformation
+            Button_352_40:
+                id: id_dependantsInformation
+
+            BoxLayoutFull:
+                spacing: 25
+                Spinner_163_40:
+                    id: id_pension
+                Spinner_163_40:
+                    id: id_arl
+        Input_1107_40:
+            id: id_factorsThatPreventYou
+            top: 800 - 576
+        Input_1107_40:
+            id: id_observations
+            top: 800 - 639
+            text_type: "text"
+        Label_763_40:
+            id: id_message
+            color: 1, 0, 0, 1
+        Button_352_64:
+            id: id_signInButton
+            top: 800-724
+            x: 863

@@ -1,0 +1,154 @@
+#: import TextInputFather declarations.class_declaration.TextInputFather
+#: import ButtonFather declarations.class_declaration.ButtonFather
+#: import SpinnerFather declarations.class_declaration.SpinnerFather
+#: import HomeButtonFather declarations.class_declaration.HomeButtonFather
+
+<Input_1107_40@TextInputFather>:
+    padding: 10
+    font_size: 18
+    size: 1107, 40
+    x: 88
+
+<Input_376_40@TextInputFather>:
+    padding: 10
+    font_size: 18
+    size: 376, 40
+
+<Input_352_40@TextInputFather>:
+    padding: 10
+    font_size: 18
+    size: 352, 40
+
+<Input_352_64@TextInputFather>:
+    padding: 15
+    font_size: 24
+    size: 352, 64
+
+<Input_248_40@TextInputFather>:
+    padding: 10
+    font_size: 18
+    size: 248, 40
+    hint_text: "DD/MM/AAAA"
+    text_type: "date"
+
+
+
+<FloatLayoutFather@FloatLayout>:
+    class_type: 'Layout'
+    size_hint: None, None
+    canvas.before:
+        Color:
+            rgba: (140/255,198/255,62/255, 0.2)
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+
+
+<Layout_1150_623@FloatLayoutFather>:
+    size: 1150, 623
+    top: 800-88
+    x: 65
+
+<Layout_900_623@FloatLayoutFather>:
+    size: 900, 623
+    top: 800-89
+    x: 190
+
+<Layout_566_672@FloatLayoutFather>:
+    size: 566, 672
+    top: 800-64
+    x: 357.05
+
+
+
+<LabelFather@Label>:
+    class_type: 'Label'
+    font_name: "montserrat"
+    color: 0,0,0,1
+    size_hint: None, None
+    halign: "center"
+    valign: "middle"
+
+
+
+<Label_888_48@LabelFather>:
+    font_size: 36
+    bold: True
+    size: 888,48
+    x: 192
+    top: 800 - 24
+
+<Label_560_48@LabelFather>:
+    font_size: 36
+    size: 560,48
+
+<Label_763_40@LabelFather>:
+    font_size: 36
+    size: 763,40
+    x: 75
+    top: 800 - 737
+    color: 1, 0, 0, 1
+
+<Label_352_40@LabelFather>:
+    font_size: 30
+    size: 352, 40
+    text_size:352, 40
+    halign: "left"
+
+<Label_158_40@LabelFather>:
+    font_size: 30
+    size: 158,40
+    text_size:158,40
+
+<Button_352_64@ButtonFather>
+    font_size: 30
+    size: 352,64
+
+<Button_352_40@ButtonFather>
+    font_size: 24
+    size: 352,40
+
+<HomeButton@HomeButtonFather>:
+    x: 82.77
+    top: 800 - 7
+    on_release: app.sm.current = 'Panel'
+
+
+<Spinner_928_89@SpinnerFather>
+    font_size: 35
+    text_size: 928,89
+    size: 928,89
+    background_normal: 'images/dropdown_big.png'
+
+
+<Spinner_352_64@SpinnerFather>
+    font_size: 30
+    text_size: 352,40
+    size: 352,64
+    background_normal: 'images/dropdown_tall.png'
+
+<Spinner_352_40@SpinnerFather>
+    font_size: 24
+    text_size: 352,40
+    size: 352,40
+    sync_height: True
+    background_normal: 'images/dropdown.png'
+
+<Spinner_192_40@SpinnerFather>
+    font_size: 24
+    text_size: 192,40
+    size: 192,40
+    sync_height: True
+    background_normal: 'images/dropdown_mini.png'
+
+<Spinner_163_40@SpinnerFather>
+    font_size: 24
+    text_size: 163,40
+    size: 163,40
+    sync_height: True
+    background_normal: 'images/dropdown_mini.png'
+
+
+
+

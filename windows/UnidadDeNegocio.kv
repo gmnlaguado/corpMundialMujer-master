@@ -1,0 +1,189 @@
+<AcceptFormUnit>:
+    id_acceptButton: id_acceptButton
+    top: 800-232
+    x: 357
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Button_352_64:
+            id: id_acceptButton
+            x: 464
+            top: 800 - 467
+            text: "Continuar"
+
+<UnidadDeNegocioScreen>:
+
+    id_unit: id_unit
+    id_howManyPartners: id_howManyPartners
+    id_ciiu: id_ciiu
+    id_email: id_email
+    id_webPage: id_webPage
+    id_sector: id_sector
+    id_regCamara: id_regCamara
+    id_withContract: id_withContract
+    id_withoutContract: id_withoutContract
+    id_departments: id_departments
+    id_cities: id_cities
+    id_address: id_address
+    id_phone: id_phone
+    id_cellphone: id_cellphone
+    id_sign: id_sign
+    id_tier: id_tier
+    id_cellphone2: id_cellphone2
+    id_descriptionLabel: id_descriptionLabel
+    id_description: id_description
+    id_briefcase: id_briefcase
+    id_creationLabel: id_creationLabel
+    id_creation: id_creation
+    id_nit: id_nit
+    id_liabilitiesDescriptionLabel: id_liabilitiesDescriptionLabel
+    id_liabilitiesDescription: id_liabilitiesDescription
+    id_message: id_message
+    id_signInButton: id_signInButton
+
+    Layout_1150_623:
+        Label_888_48:
+            text: "Unidad de Negocio"
+        Label_352_40:
+            x:88
+            top:800-122
+            text:"Unidad"
+        Input_352_40:
+            id: id_unit
+            x:220
+            top:800-122
+            size: 596, 40
+            focus: True
+            text_type: "text"
+        BoxLayoutFull:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 554
+            top: 800-129
+            x: 838
+            spacing: 25
+            BoxLayoutFull:
+                size_hint: None, None
+                size: 352, 40
+            Spinner_352_40:
+                id: id_howManyPartners
+            Input_352_40:
+                id:id_ciiu
+                hint_text: "CIIU"
+                text_type: "ciiu"
+            Input_352_40:
+                id: id_email
+                text_type: "nothing"
+            Input_352_40:
+                id: id_webPage
+                text_type: "text"
+            Spinner_352_40:
+                id: id_sector
+            Spinner_352_40:
+                id: id_regCamara
+            Spinner_352_40:
+                id: id_withContract
+            Spinner_352_40:
+                id: id_withoutContract
+        Spinner_352_40:
+            id: id_departments
+            top: 800-187
+            x: 88
+        BoxLayoutFull:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 237
+            top: 800-187
+            x: 463
+            spacing: 25
+            Spinner_352_40:
+                id: id_cities
+            Input_352_40:
+                id: id_address
+                hint_text: "___ # ___ - ___"
+                text_type: "nothing"
+            Input_352_40:
+                id: id_phone
+                text_type: "phone"
+            Input_352_40:
+                id: id_cellphone
+                text_type: "cellphone"
+        Label_352_40:
+            x:88
+            top:800-251
+            text: "Direccion"
+        Spinner_192_40:
+            id: id_sign
+            x:246
+            top:800-251
+        Label_352_40:
+            x:88
+            top:800-319
+            text:"Contacto"
+        Spinner_192_40:
+            id: id_tier
+            x:246
+            top:800-319
+        Input_352_40:
+            id: id_cellphone2
+            x:89
+            top:800-384
+            text_type: "cellphone"
+        Label_352_40:
+            id: id_descriptionLabel
+            x:88
+            top:800-444
+        Input_352_40:
+            id: id_description
+            x:291
+            top:800-444
+            width: 523
+            text_type: "text"
+        Label_352_40:
+            x:88
+            top:800-503
+            text:"Portafolio"
+        Input_352_40:
+            id: id_briefcase
+            x:291
+            top:800-503
+            width: 523
+            text_type: "text"
+        Label_352_40:
+            id: id_creationLabel
+            x:88
+            top:800-567
+        Input_248_40:
+            id: id_creation
+            x:239
+            top:800-567
+        Label_352_40:
+            x:500
+            top:800-567
+            text:"NIT"
+        Input_248_40:
+            id: id_nit
+            x:567
+            top:800-567
+            size: 248,40
+            hint_text: "NIT"
+            text_type: "nit"
+        Label_352_40:
+            id: id_liabilitiesDescriptionLabel
+            x:88
+            top:800-636
+        Input_352_40:
+            id: id_liabilitiesDescription
+            x:415
+            top:800-636
+            size: 400,40
+            text_type: "text"
+        Label_763_40:
+            id: id_message
+        Button_352_64:
+            id: id_signInButton
+            text: "Ingresar"
+            top: 800-724
+            x: 863

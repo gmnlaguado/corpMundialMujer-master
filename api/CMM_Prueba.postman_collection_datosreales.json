@@ -1,0 +1,586 @@
+{
+	"info": {
+		"_postman_id": "d18a6851-8209-4be3-a96a-76a54eeeace0",
+		"name": "CMM_Prueba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "actividad_implementacion",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"EMPROPAZ_Nicolas123_41119736\",\r\n\t\"2\":\"EMPROPAZ\",\r\n\t\"3\":\"41119746\",\r\n\t\"4\":\"Nicolas123\",\r\n\t\"5\":1,\r\n\t\"6\":1,\r\n\t\"7\":1,\r\n\t\"8\":1,\r\n\t\"9\":1,\r\n\t\"10\":1,\r\n\t\"11\":1,\r\n\t\"12\":1,\r\n\t\"13\":1,\r\n\t\"14\":1,\r\n\t\"15\":1,\r\n\t\"16\":\"CASA DEL EMPRENDEDOR\",\r\n\t\"17\":1,\r\n\t\"18\":\"ESTA AVANZANDO CORRECTAMENTE\",\r\n\t\"19\":1,\r\n\t\"20\":1,\r\n\t\"21\":\"CERRO EL NEGOCIO\"\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/actividad_implementacion",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"actividad_implementacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "actividad_seguimiento",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"EMPROPAZ_Nicolas123_41119736\",\r\n\t\"2\":\"EMPROPAZ\",\r\n\t\"3\":\"41119736\",\r\n\t\"4\":\"Nicolas123\",\r\n\t\"5\":1,\r\n\t\"6\":1,\r\n\t\"7\":2,\r\n\t\"8\":3,\r\n\t\"9\":4,\r\n\t\"10\":5,\r\n\t\"11\":6,\r\n\t\"12\":7,\r\n\t\"13\":8,\r\n\t\"14\":9,\r\n\t\"15\":1,\r\n\t\"16\":\"Barrio el jazmin\",\r\n\t\"17\":1,\r\n\t\"18\":\"Debe continuar fortaleciendo las diferentes dimensiones de la unidad productiva para garantizar mejoras continuas y sostenibles, particularmente en el area de produccion, que es en la que tiene mayores retos a futuro\",\r\n\t\"19\":1,\r\n\t\"20\":2,\r\n\t\"21\":\"Compromisos al dia\"\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/actividad_seguimiento",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"actividad_seguimiento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "beneficiario_proyectos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"EMPROPAZ_Nicolas123_41119736\",\r\n\t\"2\":\"EMPROPAZ\",\r\n\t\"3\":\"41119736\",\r\n\t\"4\":\"Nicolas123\",\r\n\t\"5\":\"14/05/2020\",\r\n\t\"6\":1,\r\n\t\"7\":1,\r\n\t\"8\":1,\r\n\t\"9\":1,\r\n\t\"10\":1,\r\n\t\"11\":1,\r\n\t\"12\":1,\r\n\t\"13\":1,\r\n\t\"14\":1\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/beneficiario_proyectos",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"beneficiario_proyectos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "caracterizacion_ampliada",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"EMPROPAZ_Nicolas123_41119736\",\r\n\t\"2\":\"EMPROPAZ\",\r\n\t\"3\":\"41119736\",\r\n\t\"4\":\"Nicolas123\",\r\n\t\"5\":\"TECNICO EN ZAPATERIA\",\r\n\t\"6\":1,\r\n\t\"7\":1,\r\n\t\"8\":1,\r\n\t\"9\":1,\r\n\t\"10\":1,\r\n\t\"11\":1,\r\n\t\"12\":1,\r\n\t\"13\":1,\r\n\t\"14\":1,\r\n\t\"15\":1,\r\n\t\"16\":1,\r\n\t\"17\":1,\r\n\t\"18\":1,\r\n\t\"19\":1,\r\n\t\"20\":1,\r\n\t\"21\":1,\r\n\t\"22\":1,\r\n\t\"23\":\"NINGUNO\",\r\n\t\"24\":\"NINGUNA\"\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/caracterizacion_ampliada",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"caracterizacion_ampliada"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "caracterizacion_ampliada_informacion_hijos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"EMPROPAZ_Nicolas123_41119736\",\r\n\t\"2\":\"EMPROPAZ\",\r\n\t\"3\":\"41119736\",\r\n\t\"4\":\"Nicolas123\",\r\n\t\"5\":1,\r\n\t\"6\":1,\r\n\t\"7\":1,\r\n\t\"8\":1\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/caracterizacion_ampliada_informacion_hijos",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"caracterizacion_ampliada_informacion_hijos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "caracterizacion_ampliada_informacion_personas_a_cargo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"EMPROPAZ_Nicolas123_41119736\",\r\n\t\"2\":\"EMPROPAZ\",\r\n\t\"3\":\"41119736\",\r\n\t\"4\":\"Nicolas123\",\r\n\t\"5\":1,\r\n\t\"6\":1,\r\n\t\"7\":1,\r\n\t\"8\":1\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/caracterizacion_ampliada_informacion_personas_a_cargo",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"caracterizacion_ampliada_informacion_personas_a_cargo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "diagnostico_de_perfil_productivo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"41119736\",\r\n\t\"2\":1,\r\n\t\"3\":0,\r\n\t\"4\":1,\r\n\t\"5\":2,\r\n\t\"6\":2,\r\n\t\"7\":1,\r\n\t\"8\":2,\r\n\t\"9\":0,\r\n\t\"10\":1,\r\n\t\"11\":0,\r\n\t\"12\":1,\r\n\t\"13\":2,\r\n\t\"14\":2,\r\n\t\"15\":1,\r\n\t\"16\":2,\r\n\t\"17\":0,\r\n\t\"18\":0,\r\n\t\"19\":0,\r\n\t\"20\":0,\r\n\t\"21\":2,\r\n\t\"22\":1,\r\n\t\"23\":2,\r\n\t\"24\":1,\r\n\t\"25\":0,\r\n\t\"26\":0,\r\n\t\"27\":2,\r\n\t\"28\":2,\r\n\t\"29\":2,\r\n\t\"30\":1,\r\n\t\"31\":0,\r\n\t\"32\":1,\r\n\t\"33\":2,\r\n\t\"34\":0,\r\n\t\"35\":1,\r\n\t\"36\":1,\r\n\t\"37\":1,\r\n\t\"38\":1,\r\n\t\"39\":1,\r\n\t\"40\":1,\r\n\t\"41\":0,\r\n\t\"42\":1,\r\n\t\"43\":2,\r\n\t\"44\":0,\r\n\t\"45\":1,\r\n\t\"46\":2,\r\n\t\"47\":2,\r\n\t\"48\":2,\r\n\t\"49\":1,\r\n\t\"50\":2,\r\n\t\"51\":0,\r\n\t\"52\":1,\r\n\t\"53\":1,\r\n\t\"54\":1,\r\n\t\"55\":2,\r\n\t\"56\":0,\r\n\t\"57\":0,\r\n\t\"58\":0,\r\n\t\"59\":1,\r\n\t\"60\":1,\r\n\t\"61\":0,\r\n\t\"62\":1,\r\n\t\"63\":2,\r\n\t\"64\":0,\r\n\t\"65\":1,\r\n\t\"66\":0,\r\n\t\"67\":1,\r\n\t\"68\":0,\r\n\t\"69\":0,\r\n\t\"70\":1,\r\n\t\"71\":0\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/diagnostico_de_perfil_productivo",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"diagnostico_de_perfil_productivo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "diagnostico_empresarial",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"EMPROPAZ_Nicolas123_41119736\",\r\n\t\"2\":\"EMPROPAZ\",\r\n\t\"3\":\"41119736\",\r\n\t\"4\":\"Nicolas123\",\r\n\t\"5\":5.2,\r\n\t\"6\":3.6,\r\n\t\"7\":5.0,\r\n\t\"8\":3.2,\r\n\t\"9\":4.5,\r\n\t\"10\":7.1,\r\n\t\"11\":2.2,\r\n\t\"12\":7.1,\r\n\t\"13\":3.1,\r\n\t\"14\":4.6,\r\n\t\"15\":5.9\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/diagnostico_empresarial",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"diagnostico_empresarial"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "idea_de_negocio",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"EMPROPAZ_Nicolas123_41119736\",\r\n\t\"2\":\"EMPROPAZ\",\r\n\t\"3\":\"41119736\",\r\n\t\"4\":\"Nicolas123\",\r\n\t\"5\":\"SMAILY\",\r\n\t\"6\":1,\r\n\t\"7\":7220,\r\n\t\"8\":86,\r\n\t\"9\":86320,\r\n\t\"10\":1,\r\n\t\"11\":1,\r\n\t\"12\":1,\r\n\t\"13\":1,\r\n\t\"14\":1,\r\n\t\"15\":\"REINAS Y PERSONAS EXTRANJERAS\",\r\n\t\"16\":1,\r\n\t\"17\":\"LLAVEROS, BISUTERIAS COMO PULSERAS, ARETES, COLLARES, ANILLOS, BOLSOS, CORREAS, CHALECOS, TRAJES DE FANTASIA PARA REINADOS\",\r\n\t\"18\":1.1,\r\n\t\"19\":1.1,\r\n\t\"20\":1,\r\n\t\"21\":1.1,\r\n\t\"22\":1.1,\r\n\t\"23\":1.1,\r\n\t\"24\":1,\r\n\t\"25\":\"2 OPERADORAS DE MAQUINAS, 3 ARTESANAS\",\r\n\t\"26\":1,\r\n\t\"27\":1,\r\n\t\"28\":1,\r\n\t\"29\":\"CON GRAN SURTIDO Y MUCHAS VENTAS\",\r\n\t\"30\":\"fecha_prueba\"\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/idea_de_negocio",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"idea_de_negocio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "informacion_general_beneficiario",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"EMPROPAZ\",\r\n\t\"2\":\"IRMA\",\r\n\t\"3\":\"CHACHINOY YOCURO\",\r\n\t\"4\":1,\r\n\t\"5\":\"41119736\",\r\n\t\"6\":86320,\r\n\t\"7\":\"12/12/1969\",\r\n\t\"8\":86320,\r\n\t\"9\":86,\r\n\t\"10\":169,\r\n\t\"11\":10,\r\n\t\"12\":\"LOS LAURELES MANZANA A\",\r\n\t\"13\":1,\r\n\t\"14\":1,\r\n\t\"15\":2223344,\r\n\t\"16\":3112224455,\r\n\t\"17\":\"irma@yahoo.es\",\r\n\t\"18\":\"Nicolas123\",\r\n\t\"19\":0,\r\n\t\"20\":2,\r\n\t\"21\":\"28/03/2019\",\r\n\t\"22\":4,\r\n\t\"23\":169,\r\n\t\"24\":1,\r\n\t\"25\":4,\r\n\t\"26\":2,\r\n\t\"27\":2,\r\n\t\"28\":8,\r\n\t\"29\":1\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/informacion_general_beneficiario",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"informacion_general_beneficiario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "monitoreo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"EMPROPAZ_Nicolas123_41119736\",\r\n\t\"2\":\"EMPROPAZ\",\r\n\t\"3\":\"4119736\",\r\n\t\"4\":\"Nicolas123\",\r\n\t\"5\":1,\r\n\t\"6\":700000,\r\n\t\"7\":430000,\r\n\t\"8\":7220,\r\n\t\"9\":1,\r\n\t\"10\":2,\r\n\t\"11\":1,\r\n\t\"12\":1,\r\n\t\"13\":1,\r\n\t\"14\":1,\r\n\t\"15\":1,\r\n\t\"16\":1,\r\n\t\"17\":1,\r\n\t\"18\":1,\r\n\t\"19\":1,\r\n\t\"20\":\"ASOMUJERES PUTUMAYO\",\r\n\t\"21\":1,\r\n\t\"22\":1,\r\n\t\"23\":1,\r\n\t\"24\":1,\r\n\t\"25\":1,\r\n\t\"26\":1,\r\n\t\"27\":1,\r\n\t\"28\":1,\r\n\t\"29\":1,\r\n\t\"30\":1,\r\n\t\"31\":1,\r\n\t\"32\":1,\r\n\t\"33\":1,\r\n\t\"34\":1,\r\n\t\"35\":1,\r\n\t\"36\":1,\r\n\t\"37\":1,\r\n\t\"38\":1,\r\n\t\"39\":1,\r\n\t\"40\":2,\r\n\t\"41\":1,\r\n\t\"42\":1,\r\n\t\"43\":1,\r\n\t\"44\":1,\r\n\t\"45\":1,\r\n\t\"46\":1,\r\n\t\"47\":1,\r\n\t\"48\":1,\r\n\t\"49\":1,\r\n\t\"50\":1,\r\n\t\"51\":1,\r\n\t\"52\":1,\r\n\t\"53\":1,\r\n\t\"54\":1,\r\n\t\"55\":1,\r\n\t\"56\":1,\r\n\t\"57\":1,\r\n\t\"58\":\"FAMILIAS EN ACCION\",\r\n\t\"59\":\"800600222-2\",\r\n\t\"60\":500000,\r\n\t\"61\":134000,\r\n\t\"62\":134000,\r\n\t\"63\":268000,\r\n\t\"64\":1000000,\r\n\t\"65\":500000,\r\n\t\"66\":15000000,\r\n\t\"67\":100000,\r\n\t\"68\":100000,\r\n\t\"69\":200000,\r\n\t\"70\":1300000,\r\n\t\"71\":110000,\r\n\t\"72\":\"24/04/2020\"\r\n\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/monitoreo",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"monitoreo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "odp_operario",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"1020777333\",\r\n\t\"2\":\"Nicolas Serrato\",\r\n\t\"3\":\"Nicolas123\",\r\n\t\"4\":\"Isys123\",\r\n\t\"5\":1\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/odp_operario",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"odp_operario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "odp_operario_proyectos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"Nicolas123_EMPROPAZ\",\r\n\t\"2\":\"Nicolas123\",\r\n\t\"3\":\"EMPROPAZ\"\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/odp_operario_proyectos",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"odp_operario_proyectos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "plan_de_formacion",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"EMPROPAZ_Nicolas123_41119736\",\r\n\t\"2\":\"EMPROPAZ\",\r\n\t\"3\":\"41119736\",\r\n\t\"4\":\"Nicolas123\",\r\n\t\"5\":1,\r\n\t\"6\":40,\r\n\t\"7\":\"21/05/2019\",\r\n\t\"8\":\"08/06/2019\",\r\n\t\"9\":1\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/plan_de_formacion",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"plan_de_formacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "plan_de_implementacion",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"EMPROPAZ_Nicolas123_41119736\",\r\n\t\"2\":\"EMPROPAZ\",\r\n\t\"3\":\"41119736\",\r\n\t\"4\":\"Nicolas123\",\r\n\t\"5\":1,\r\n\t\"6\":1,\r\n\t\"7\":\"FORTALECER LA CADENA DE COMERCIALIZACION\",\r\n\t\"8\":\"inicio_prueba\",\r\n\t\"9\":\"DISEÑAR EL LOGO DE LA MARCA DE LA UNIDAD PRODUCTIVA\",\r\n\t\"10\":\"inicio_prueba\",\r\n\t\"11\":\"AMPLIAR Y MEJORAR LA ZONA DE PRODUCCION\",\r\n\t\"12\":\"inicio_prueba\",\r\n\t\"13\":\"REGISTRAR LAS VENTAS, GASTOS Y COSTOS\",\r\n\t\"14\":\"inicio_prueba\",\r\n\t\"15\":\"INVOLUCRAR A LA HIJA EN LA ELABORACION DE ARTESANIAS\",\r\n\t\"16\":\"inicio_prueba\",\r\n\t\"17\":\"REUTILIZAR MATERIALES PARA LA ELABORACION DE ARTESANIAS\",\r\n\t\"18\":\"inicio_prueba\",\r\n\t\"19\":\"ADQUIRIR HERRAMIENTAS TECNOLOGICAS PARA IMPLEMENTAR PUBLICIDAD POR REDES SOCIALES\",\r\n\t\"20\":\"inicio_prueba\",\r\n\t\"21\":\"REALIZAR CATALOGO DE LOS PRODUCTOS ESTRELLAS\",\r\n\t\"22\":\"inicio_prueba\",\r\n\t\"23\":\"CONSEGUIR RECURSOS ECONOMICOS PARA IMPLEMENTAR EL PLAN DE NEGOCIOS\",\r\n\t\"24\":\"inicio_prueba\",\r\n\t\"25\":\"CONSEGUIR RECURSOS ECONOMICOS PARA IMPLEMENTAR EL PLAN DE NEGOCIOS\",\r\n\t\"26\":\"inicio_prueba\",\r\n\t\"27\":\"CONSEGUIR RECURSOS ECONOMICOS PARA IMPLEMENTAR EL PLAN DE NEGOCIOS\",\r\n\t\"28\":\"inicio_prueba\",\r\n\t\"29\":\"CONSEGUIR RECURSOS ECONOMICOS PARA IMPLEMENTAR EL PLAN DE NEGOCIOS\",\r\n\t\"30\":\"inicio_prueba\",\r\n\t\"31\":\"CONSEGUIR RECURSOS ECONOMICOS PARA IMPLEMENTAR EL PLAN DE NEGOCIOS\",\r\n\t\"32\":\"inicio_prueba\",\r\n\t\"33\":\"CONSEGUIR RECURSOS ECONOMICOS PARA IMPLEMENTAR EL PLAN DE NEGOCIOS\"\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/plan_de_implementacion",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"plan_de_implementacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "plan_de_seguimiento",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"prueba\":\"contenido de prueba\"\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/plan_de_seguimiento",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"plan_de_seguimiento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "proyectos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"1\":\"EMPROPAZ\",\r\n\t\"2\":\"EMPROPAZ\",\r\n\t\"3\":\"14/03/2019\"\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/proyectos",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"proyectos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "unidad_de_negocio",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"prueba\":\"contenido de prueba\"\r\n}"
+				},
+				"url": {
+					"raw": "http://190.145.94.92:5000/unidad_de_negocio",
+					"protocol": "http",
+					"host": [
+						"190",
+						"145",
+						"94",
+						"92"
+					],
+					"port": "5000",
+					"path": [
+						"unidad_de_negocio"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,66 @@
+<LoginProjectPopup>:
+    id_projects: id_projects
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Spinner_352_64:
+            id: id_projects
+            x: 464
+            top: 800 - 467
+            text: 'Proyectos'
+
+
+
+<LoginScreen>:
+
+    id_username: id_username
+    static_password: static_password
+    id_password: id_password
+    id_message: id_message
+    id_signInButton: id_signInButton
+    id_wifi: id_wifi
+
+    Wifi_Status:
+        id: id_wifi
+    Layout_566_672:
+        Button:
+            background_normal: './images/logoCMMC.png'
+            background_down: './images/logoCMMC.png'
+            size_hint: None, None
+            size: 369, 220
+            x: 464
+            top: 800 - 84
+
+        BoxLayout:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 227
+            top: 800-304
+            x: 464
+            Label_352_40:
+                text: "ODP Operario"
+            Input_352_64:
+                id: id_username
+                padding: 15
+                text_type: "username"
+            Label_352_40:
+                id: static_password
+            Input_352_64:
+                id: id_password
+                password: True
+                text_type: "password"
+        Label_352_40:
+            id: id_message
+            color: 1,0,0,1
+            halign: "center"
+            x: 464
+            top: 800 - 564
+            color: 1, 0, 0, 1
+
+        Button_352_64:
+            id: id_signInButton
+            text: "Ingresar"
+            top: 800-628
+            x:464

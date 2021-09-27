@@ -1,0 +1,35 @@
+Kivy Linux Tutorial
+
+First update python and virtualenv
+
+:: python3 -m pip install --upgrade --user pip setuptools virtualenv
+
+Then create a virtual environment
+
+:: python3 -m virtualenv kivyenv
+
+Open this virtual environment executing
+
+:: source activate
+
+Once you are in, you will need to install kivy
+
+:: python3 -m pip install kivy
+
+After this, install Buildozer
+
+:: git clone https://github.com/kivy/buildozer.git
+:: cd buildozer
+:: sudo python3 setup.py install
+
+With Buildozer installed, it's also needed Cython
+
+:: pip install cython.
+
+Now you can run
+
+:: buildozer init
+
+and then
+
+:: buildozer android debug deploy run logcat

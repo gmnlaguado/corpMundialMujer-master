@@ -1,0 +1,24 @@
+Pasos para activar la API
+1] Ingresar a la siguiente dirección:
+
+C:\Users\Administrador\Documents\SeApp\venv\Scripts
+
+2] En la barra de direcciones, borran lo que esté y ingresan: 
+
+cmd
+
+3] En el simbolo del sistema escriben: 
+
+activate
+
+4] Se dirigen a la carpeta donde está la api:
+
+C:\Users\Administrador\Documents\SeApp\App\api
+
+5] Copian la dirección de la carpeta e ingresan en el simbolo del sistema lo siguiente:
+
+cd C:\Users\Administrador\Documents\SeApp\App\api
+
+6] Escriben en el simbolo del sistema:
+
+python app.py

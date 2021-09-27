@@ -1,0 +1,91 @@
+<AcceptFormPlanDeImplementacion>:
+    id_acceptButton: id_acceptButton
+    top: 800-232
+    x: 357
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Button_352_64:
+            id: id_acceptButton
+            x: 464
+            top: 800 - 467
+            text: "Continuar"
+
+<numero_de_visitas_implementacion>:
+    id_visitas: id_visitas
+    top: 800-232
+    x: 357
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Spinner_352_64:
+            id: id_visitas
+            x: 464
+            top: 800 - 467
+            text: "Cantidad de visitas"
+            text_type: "text"
+            values: ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20']
+
+<PlanDeImplementacionScreen>:
+    id_title: id_title
+    id_container_grid: id_container_grid
+    id_lineLabel: id_lineLabel
+    id_finishedDataLabel: id_finishedDataLabel
+    id_message: id_message
+    id_signInButton: id_signInButton
+    id_homeButton: id_homeButton
+
+    Layout_1150_623:
+        Label_888_48:
+            id: id_title
+        HomeButton:
+            id: id_homeButton
+
+        BoxLayoutFull:
+            size_hint: None, None
+            size: 1112, 538
+            x: 84
+            top:800 - 151
+            ScrollView:
+                size: self.size
+                GridLayout:
+                    cols: 5
+                    id: id_container_grid
+                    size_hint_y:None
+                    spacing:20
+        Label_158_40:
+            id: id_lineLabel
+            font_size: 24
+            x: 93
+            top: 800 - 110
+        Label_158_40:
+            text: "Puntaje"
+            font_size: 24
+            x: 257
+            top: 800 - 110
+        Label_158_40:
+            text: "Meta"
+            font_size: 24
+            x: 516
+            top: 800 - 110
+        Label_158_40:
+            text: "Fecha Inicio"
+            font_size: 24
+            x: 815
+            top: 800 - 110
+        Label_158_40:
+            id: id_finishedDataLabel
+            font_size: 24
+            x: 1018
+            top: 800 - 110
+        Label_763_40:
+            id: id_message
+        Button_352_64:
+            id: id_signInButton
+            text: "Terminar Formulario"
+            top: 800-724
+            x: 863

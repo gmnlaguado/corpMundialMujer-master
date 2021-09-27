@@ -1,0 +1,198 @@
+<AcceptFormIdea>:
+    id_acceptButton: id_acceptButton
+    top: 800-232
+    x: 357
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Button_352_64:
+            id: id_acceptButton
+            x: 464
+            top: 800 - 467
+            text: "Continuar"
+
+
+<ProductServicesPopUp>:
+    id_list: id_list
+    top: 800-232
+    x: 357
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Input_352_64:
+            id: id_list
+            x: 464
+            top: 800 - 467
+            text_type: "text"
+
+
+<colaboratorsPopUp>:
+    id_list: id_list
+    top: 800-232
+    x: 357
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Input_352_64:
+            id: id_list
+            x: 464
+            top: 800 - 467
+            text_type: "text"
+
+<IdeaDeNegocioScreen>:
+    id_entrepreneurship: id_entrepreneurship
+    id_bussinesSector: id_bussinesSector
+    id_cities: id_cities
+    id_studies: id_studies
+    id_agricultural:id_agricultural
+    id_needColabs: id_needColabs
+    id_weeklyTime: id_weeklyTime
+    id_whyNot: id_whyNot
+    id_months: id_months
+    id_ciiu: id_ciiu
+    id_howArise: id_howArise
+    id_haveExperience: id_haveExperience
+    id_departments: id_departments
+    id_dedicationTime: id_dedicationTime
+    id_productServices: id_productServices
+    id_briefcase: id_briefcase
+    id_assetInvestment: id_assetInvestment
+    id_investmentPercent: id_investmentPercent
+    id_firstMonthSales: id_firstMonthSales
+    id_initialInvestment: id_initialInvestment
+    id_capitalWorkInvestment: id_capitalWorkInvestment
+    id_firstYearSales: id_firstYearSales
+    id_imagine: id_imagine
+    id_message: id_message
+    id_signInButton: id_signInButton
+
+    Layout_1150_623:
+        Label_888_48:
+            text: "Idea de Negocio"
+        Label_352_40:
+            x:88
+            top:800-122
+            text:"Emprendimiento"
+        Input_376_40:
+            id: id_entrepreneurship
+            x:365
+            top:800-122
+            size: 451, 40
+            focus: True
+            hint_text: "Nombre del emprendimiento"
+            text_type: "text"
+        BoxLayoutFull:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 495
+            top: 800-122
+            x: 838
+            spacing: 25
+            Spinner_352_40:
+                id: id_bussinesSector
+            Spinner_352_40:
+                id: id_cities
+            Spinner_352_40:
+                id: id_studies
+            Spinner_352_40:
+                id: id_agricultural
+            Spinner_352_40:
+                id: id_needColabs
+            Spinner_352_40:
+                id: id_weeklyTime
+            Spinner_352_40:
+                id: id_whyNot
+            Spinner_352_40:
+                id: id_months
+        BoxLayoutFull:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 170
+            top: 800-187
+            x: 88
+            spacing: 25
+            Input_352_40:
+                id:id_ciiu
+                hint_text: "CIIU"
+                text_type: "ciiu"
+            Spinner_352_40:
+                id: id_howArise
+            Spinner_352_40:
+                id: id_haveExperience
+        BoxLayoutFull:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 170
+            top: 800-187
+            x: 464
+            spacing: 25
+            Spinner_352_40:
+                id: id_departments
+            Spinner_352_40:
+                id: id_dedicationTime
+            Spinner_352_40:
+                id: id_productServices
+        Label_352_40:
+            x:88
+            top:800-382
+            text:"INVERSIONES"
+        Input_376_40:
+            id: id_briefcase
+            x:318
+            top:800-382
+            size: 498, 40
+            text_type: "text"
+        BoxLayoutFull:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 170
+            top: 800-447
+            x: 88
+            spacing: 25
+            Input_352_40:
+                id: id_assetInvestment
+                text_type: "money"
+            Spinner_352_40:
+                id: id_investmentPercent
+            Input_352_40:
+                id: id_firstMonthSales
+                text_type: "money"
+        BoxLayoutFull:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 170
+            top: 800-447
+            x: 464
+            spacing: 25
+            Input_352_40:
+                id: id_initialInvestment
+                text_type: "money"
+            Label_352_40:
+                id: id_capitalWorkInvestment
+                text: "Capital de trabajo"
+                halign: "center"
+            Input_352_40:
+                id: id_firstYearSales
+                text_type: "money"
+        Label_352_40:
+            x:88
+            top:800-642
+            text:"Imagine su negocio"
+        Input_352_40:
+            id: id_imagine
+            x:410
+            top:800-642
+            size: 780, 40
+            text_type: "text"
+        Label_763_40:
+            id: id_message
+        Button_352_64:
+            id: id_signInButton
+            top: 800-724
+            x: 863

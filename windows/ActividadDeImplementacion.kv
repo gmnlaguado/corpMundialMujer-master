@@ -1,0 +1,133 @@
+<AcceptFormActividadDeImplementacion>:
+    id_acceptButton: id_acceptButton
+    top: 800-232
+    x: 357
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Button_352_64:
+            id: id_acceptButton
+            x: 464
+            top: 800 - 467
+            text: "Continuar"
+
+<SeguimientoDesembolso>:
+    id_projects: id_projects
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Spinner_352_64:
+            id: id_projects
+            x: 464
+            top: 800 - 467
+            text: 'Tipo de seguimiento'
+
+<AlertaSeguimientoDesembolso>:
+    id_projects: id_projects
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Spinner_352_64:
+            id: id_projects
+            x: 464
+            top: 800 - 467
+            text: 'Alerta'
+
+<OtroSeguimientoDesembolso>:
+    id_payee: id_payee
+    top: 800-232
+    x: 357
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Input_352_64:
+            id: id_payee
+            x: 464
+            top: 800 - 467
+
+<Estado_de_metas>:
+    id_container_grid: id_container_grid
+    id_botonAceptar: id_botonAceptar
+
+    background:"images/green_background.png"
+    background_color: (0,0,0, 0.8)
+    separator_color: 0,0,0,0
+    title_size: 43
+    font_name: "montserrat"
+    title_align: "center"
+    title_color: 0,0,0,1
+    size_hint: None, None
+    size: 1150, 500
+    top: 800-88
+    x: 65
+    BoxLayout:
+        orientation: "vertical"
+        size_hint: None, None
+        size: 1200,400
+        ScrollView:
+            size: self.size
+            GridLayout:
+                cols: 3
+                id: id_container_grid
+                size_hint_y:None
+                spacing:40
+
+
+        Label_888_48:
+            size_hint_x: 1
+            text: "Una vez ingresada la informacion, presione Aceptar"
+            bold: False
+        Button_352_64:
+            id: id_botonAceptar
+            pos_hint: {'center_x': 0.5}
+            text: "Aceptar"
+
+<ActividadDeImplementacionScreen>:
+    id_title: id_title
+    id_payeeName: id_payeeName
+    id_payeeDocument: id_payeeDocument
+    id_container_grid: id_container_grid
+    id_signInButton: id_signInButton
+
+    Layout_1150_623:
+        Label_888_48:
+            id: id_title
+        Label_352_40:
+            id: id_payeeName
+            x: 284
+            top: 800 - 114
+            text: "Nombre beneficiario"
+
+        Label_352_40:
+            id: id_payeeDocument
+            x: 742
+            top: 800 - 114
+            text: "Documento"
+
+        BoxLayoutFull:
+            size_hint: None, None
+            size: 673, 530
+            x: 320
+            top:800 - 165
+            ScrollView:
+                size: self.size
+                GridLayout:
+                    cols: 1
+                    id: id_container_grid
+                    size_hint_y:None
+                    spacing:30
+        Label_763_40:
+            id: id_message
+        Button_352_64:
+            id: id_signInButton
+            text: "Terminar Actividad"
+            top: 800-724
+            x: 863

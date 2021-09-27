@@ -1,0 +1,83 @@
+<AcceptFormPlanDeFormacion>:
+    id_acceptButton: id_acceptButton
+    top: 800-232
+    x: 357
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Button_352_64:
+            id: id_acceptButton
+            x: 464
+            top: 800 - 467
+            text: "Continuar"
+
+<PlanDeFormacionScreen>:
+    id_selectedActivities: id_selectedActivities
+    id_program: id_program
+    id_line: id_line
+    id_level: id_level
+    id_container_grid: id_container_grid
+    id_title: id_title
+    id_signInButton: id_signInButton
+    id_message: id_message
+    id_total_activities: id_total_activities
+
+
+    Layout_1150_623:
+        Label_888_48:
+            id: id_title
+        Label_560_48:
+            id: id_total_activities
+            text: "Actividades Seleccionadas 0"
+            x: 176
+            top: 800 - 127
+        Button_352_40:
+            id: id_selectedActivities
+            text: "Seleccionar"
+            x: 768
+            top: 800 - 127
+
+        Label_560_48:
+            text: "Nombre de la actividad"
+            x: 176
+            top: 800 - 267
+
+        Label_560_48:
+            text: "Fecha"
+            x: 769
+            top: 800 - 267
+
+        BoxLayoutFull:
+            size_hint: None, None
+            size: 1100,40
+            x: 90
+            top:800 - 188
+            spacing: 22
+            Spinner_352_40:
+                id: id_program
+            Spinner_352_40:
+                id: id_line
+            Spinner_352_40:
+                id: id_level
+        BoxLayoutFull:
+            size_hint: None, None
+            size: 1100,385
+            x: 90
+            top:800 - 293 - 60
+            ScrollView:
+                size: self.size
+                GridLayout:
+                    cols: 1
+                    id: id_container_grid
+                    size_hint_y:None
+                    spacing:40
+
+        Label_763_40:
+            id: id_message
+        Button_352_64:
+            id: id_signInButton
+            text: "Ingresar"
+            top: 800-724
+            x: 863

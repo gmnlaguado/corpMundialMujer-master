@@ -1,0 +1,23 @@
+Tutorial uso Git y Github
+
+Este sibolo (>>) indica que es el comando a ejecutar 
+
+Primer paso: instalar Git en el enlace
+>> https://git-scm.com/
+
+Segundo paso: Crear una carpeta donde se alojará el repositorio de Git hub
+
+Tercer paso: Click derecho bash here, dentro de la carpeta contenedora
+
+Cuarto paso: Declarar usuario  
+>> git user.name "Nombre usuario" 
+
+Quinto paso: Declarar Email asociado a cuenta github  
+>> git user.email "Email asociado a la cuenta de github" 
+
+Sexto paso: Declarar dirección del repositorio remoto en git hub
+>> git remote add origin [pegar direccion url repositorio]
+
+Septimo paso: Hacer pull (traer la información del repositorio remoto a la carpeta o repositorio local"
+>> git pull origin master
+

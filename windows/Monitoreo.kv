@@ -1,0 +1,367 @@
+<AcceptFormMonitoreo>:
+    id_acceptButton: id_acceptButton
+    top: 800-232
+    x: 357
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Button_352_64:
+            id: id_acceptButton
+            x: 464
+            top: 800 - 467
+            text: "Continuar"
+
+
+<GastosDelGrupoFamiliarPopup>:
+    id_rentAndServices: id_rentAndServices
+    id_runningCosts: id_runningCosts
+    id_education: id_education
+    id_casualCosts: id_casualCosts
+    id_obligations: id_obligations
+    id_message: id_message
+    id_acceptButton: id_acceptButton
+
+    top: 800-232
+    x: 64.41
+    size: 1150,390
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 1104,280
+        BoxLayout:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 80
+            top: 800-307
+            x: 88
+            Label_352_40:
+                text: "Arriendo y Servicios"
+                font_size: 24
+            Input_352_40:
+                id: id_rentAndServices
+                text_type: "money"
+        BoxLayout:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 80
+            top: 800-414
+            x: 88
+            Label_352_40:
+                text: "Gastos Corrientes"
+                font_size: 24
+            Input_352_40:
+                id: id_runningCosts
+                text_type: "money"
+        BoxLayout:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 80
+            top: 800-307
+            x: 464
+            Label_352_40:
+                text: "Educacion"
+                font_size: 24
+            Input_352_40:
+                id: id_education
+                text_type: "money"
+        BoxLayout:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 80
+            top: 800-414
+            x: 464
+            Label_352_40:
+                text: "Gastos Ocasionales"
+                font_size: 24
+            Input_352_40:
+                id: id_casualCosts
+                text_type: "money"
+        BoxLayout:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 80
+            top: 800-307
+            x: 840
+            Label_352_40:
+                text: "Obligaciones"
+                font_size: 24
+            Input_352_40:
+                id: id_obligations
+                text_type: "money"
+
+        Label_763_40:
+            id: id_message
+            x: 88
+            top: 800 - 533
+            color: 1, 0, 0, 1
+            text: ""
+
+        Button_352_64:
+            id: id_acceptButton
+            x: 840
+            top: 800 - 520
+            text: "Continuar"
+
+<IngresosDelGrupoFamiliarPopup>:
+    id_employees: id_employees
+    id_othersRelatives: id_othersRelatives
+    id_freelanceJobs: id_freelanceJobs
+    id_pension: id_pension
+    id_entrepreneurship: id_entrepreneurship
+    id_otherIncomes: id_otherIncomes
+    id_message: id_message
+    id_acceptButton: id_acceptButton
+
+    top: 800-232
+    x: 64.41
+    size: 1150,390
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 1104,280
+        BoxLayout:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 80
+            top: 800-307
+            x: 88
+            Label_352_40:
+                text: "Empleados"
+                font_size: 24
+            Input_352_40:
+                id: id_employees
+                text_type: "money"
+        BoxLayout:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 80
+            top: 800-414
+            x: 88
+            Label_352_40:
+                text: "Otros Familiares"
+                font_size: 24
+            Input_352_40:
+                id: id_othersRelatives
+                text_type: "money"
+        BoxLayout:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 80
+            top: 800-307
+            x: 464
+            Label_352_40:
+                text: "Trabajos Independientes"
+                font_size: 24
+            Input_352_40:
+                id: id_freelanceJobs
+                text_type: "money"
+        BoxLayout:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 80
+            top: 800-414
+            x: 464
+            Label_352_40:
+                text: "Pension"
+                font_size: 24
+            Input_352_40:
+                id: id_pension
+                text_type: "money"
+        BoxLayout:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 80
+            top: 800-307
+            x: 840
+            Label_352_40:
+                text: "Emprendimientos"
+                font_size: 24
+            Input_352_40:
+                id: id_entrepreneurship
+                text_type: "money"
+
+        BoxLayout:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 80
+            top: 800-414
+            x: 840
+            Label_352_40:
+                text: "Otros ingresos"
+                font_size: 24
+            Input_352_40:
+                id: id_otherIncomes
+                text_type: "money"
+
+        Label_763_40:
+            id: id_message
+            x: 88
+            top: 800 - 533
+            color: 1, 0, 0, 1
+            text: ""
+
+        Button_352_64:
+            id: id_acceptButton
+            x: 840
+            top: 800 - 520
+            text: "Continuar"
+
+
+<MonitoreoScreen>:
+    id_belongToAssosiation: id_belongToAssosiation
+    id_ciiu: id_ciiu
+    id_pension: id_pension
+    id_bussinesSector: id_bussinesSector
+    id_householdExpenses: id_householdExpenses
+    id_householdIncomes: id_householdIncomes
+    id_totalDependants: id_totalDependants
+    id_whoDefineIncome: id_whoDefineIncome
+    id_houseType: id_houseType
+    id_houseMaterial: id_houseMaterial
+    id_bedroomsNumber: id_bedroomsNumber
+    id_kitchenFuel: id_kitchenFuel
+    id_tier: id_tier
+    id_houseAge: id_houseAge
+    id_container_grid_1: id_container_grid_1
+    id_container_grid_2: id_container_grid_2
+    id_message: id_message
+    id_signInButton: id_signInButton
+    id_homeButton: id_homeButton
+    id_cual_asociacion: id_cual_asociacion
+    id_asociacion_mujeres: id_asociacion_mujeres
+    ingresos_familia: ingresos_familia
+    gastos_familia: gastos_familia
+
+    Layout_1150_623:
+        Label_888_48:
+            id: ingresos_familia
+            color: 11 / 255, 69 / 255, 0 / 255, 0
+            text: ""
+
+        Label_888_48:
+            id: gastos_familia
+            color: 11 / 255, 69 / 255, 0 / 255, 0
+            text: ""
+
+        Label_888_48:
+            text: "Monitoreo"
+        HomeButton:
+            id: id_homeButton
+        BoxLayoutFull:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 572
+            top: 800-116
+            x: 88
+            spacing: 25
+            Spinner_352_40:
+                id: id_belongToAssosiation
+                font_size: 14
+            Input_352_40:
+                id: id_cual_asociacion
+                hint_text: "Nombre de la asociacion"
+            Spinner_352_40:
+                id: id_asociacion_mujeres
+                font_size: 14
+            BoxLayoutFull:
+                spacing: 25
+                Input_352_40:
+                    id:id_ciiu
+                    hint_text: "CIIU"
+                    text_type: "ciiu"
+                    padding: 10
+                    font_size: 18
+                    size: 163, 40
+                Spinner_163_40:
+                    id: id_pension
+            Spinner_352_40:
+                id: id_bussinesSector
+            Button_352_40:
+                id: id_householdExpenses
+            Button_352_40:
+                id: id_householdIncomes
+                font_size: 14
+            Spinner_352_40:
+                id: id_totalDependants
+                font_size: 14
+            Spinner_352_40:
+                id: id_whoDefineIncome
+                font_size: 14
+        BoxLayoutFull:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 352, 173
+            top: 800-116
+            x: 478
+            spacing: 25
+            Spinner_352_40:
+                id: id_houseType
+            Spinner_352_40:
+                id: id_houseMaterial
+                font_size: 14
+            BoxLayoutFull:
+                spacing: 25
+                Spinner_163_40:
+                    id: id_bedroomsNumber
+                    font_size: 14
+                Spinner_163_40:
+                    id: id_kitchenFuel
+                    font_size: 14
+        BoxLayoutFull:
+            size_hint: None, None
+            size: 352, 40
+            top: 800-250
+            x: 844
+            spacing: 25
+            Spinner_163_40:
+                id: id_tier
+            Spinner_163_40:
+                id: id_houseAge
+        Label_352_40:
+            font_size: 24
+            size: 164, 29
+            halign: "center"
+            top: 800-113
+            x: 860
+            text: "Caracteristica"
+        Label_352_40:
+            font_size: 24
+            size: 74, 29
+            halign: "center"
+            top: 800-113
+            x: 1106
+            text: "SI  NO"
+        BoxLayoutFull:
+            size_hint: None, None
+            size: 352, 74.5
+            x: 844
+            top:800 - 144
+            ScrollView:
+                size: self.size
+                GridLayout:
+                    cols: 2
+                    id: id_container_grid_1
+                    size_hint_y:None
+                    spacing:20
+
+        BoxLayoutFull:
+            size_hint: None, None
+            size: 732, 385
+            x: 494
+            top:800 - 303
+            ScrollView:
+                size: self.size
+                GridLayout:
+                    cols: 1
+                    id: id_container_grid_2
+                    size_hint_y:None
+                    spacing:20
+        Label_763_40:
+            id: id_message
+        Button_352_64:
+            id: id_signInButton
+            text: "Terminar Formulario"
+            top: 800-724
+            x: 863

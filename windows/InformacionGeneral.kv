@@ -1,0 +1,187 @@
+<AcceptForm>:
+    id_acceptButton: id_acceptButton
+    top: 800-232
+    x: 357
+    size: 566,336
+    title_size: 43
+    FloatLayout:
+        size_hint: None, None
+        size: 566,116
+        Button_352_64:
+            id: id_acceptButton
+            x: 464
+            top: 800 - 467
+            text: "Continuar"
+
+<InformacionGeneralScreen>:
+    id_title: id_title
+    id_name: id_name
+    id_lastName: id_lastName
+    id_birthdate: id_birthdate
+    id_age: id_age
+    id_ageRange: id_ageRange
+    id_documentType: id_documentType
+    id_expeditionDepto: id_expeditionDepto
+    id_expeditionCity: id_expeditionCity
+    id_sex: id_sex
+    id_payeeType: id_payeeType
+    id_nationality: id_nationality
+    id_country: id_country
+    id_departments: id_departments
+    id_cities: id_cities
+    id_environment: id_environment
+    id_addressLabel: id_addressLabel
+    id_sign: id_sign
+    id_address: id_address
+    id_neighborhoods: id_neighborhoods
+    id_tier: id_tier
+    id_telephone: id_telephone
+    id_gender: id_gender
+    id_cellphone: id_cellphone
+    id_cellphone2: id_cellphone2
+    id_ethnicGroup: id_ethnicGroup
+    id_disability: id_disability
+    id_email: id_email
+    id_message: id_message
+    id_signInButton: id_signInButton
+    homeButton: homeButton
+
+    Layout_1150_623:
+        HomeButton:
+            id: homeButton
+        Label_888_48:
+            id: id_title
+        Label_352_40:
+            x:88
+            top:800-122
+            text:"Nombre"
+        Input_376_40:
+            id: id_name
+            focus: True
+            x:228
+            top:800-122
+            text_type: "name"
+        Label_352_40:
+            x:674
+            top:800-122
+            text:"Apellido"
+        Input_376_40:
+            id: id_lastName
+            x:814
+            top:800-122
+            text_type: "name"
+        Label_352_40:
+            x:88
+            top:800-187
+            text:"Fecha de nacimiento"
+        Input_248_40:
+            id: id_birthdate
+            x:435
+            top:800-187
+
+        Label_352_40:
+            id: id_age
+            x:756
+            top:800-187
+            text: "Edad"
+        Label_352_40:
+            id: id_ageRange
+            x:986
+            top:800-187
+            text:"Rango"
+        BoxLayoutFull:
+            orientation: "vertical"
+            size_hint: None, None
+            size: 1127, 429
+            top: 800-252
+            x: 88
+            spacing: 25
+            BoxLayoutFull:
+                spacing: 24
+                Spinner_352_40:
+                    id: id_documentType
+                Spinner_352_40:
+                    id: id_expeditionDepto
+                Spinner_352_40:
+                    id: id_expeditionCity
+            BoxLayoutFull:
+                spacing: 24
+                Spinner_352_40:
+                    id: id_sex
+                Spinner_352_40:
+                    id: id_payeeType
+                Spinner_352_40:
+                    id: id_nationality
+            BoxLayoutFull:
+                spacing: 24
+                Spinner_352_40:
+                    id: id_country
+                Spinner_352_40:
+                    id: id_departments
+                Spinner_352_40:
+                    id: id_cities
+
+            BoxLayoutFull:
+                spacing: 24
+                Spinner_352_40:
+                    id: id_environment
+                BoxLayoutFull:
+                    size_hint: None, None
+                    size: 359,40
+                    Label_158_40:
+                        id: id_addressLabel
+                    Spinner_192_40:
+                        id: id_sign
+                Input_352_40:
+                    id: id_address
+                    hint_text: "___ # ___ - ___"
+                    text_type: "nothing"
+
+            BoxLayoutFull:
+                spacing: 24
+                Spinner_352_40:
+                    id: id_neighborhoods
+                BoxLayoutFull:
+                    size_hint: None, None
+                    size: 359,40
+                    Label_158_40:
+                        text: "Indicativo"
+                    Spinner_192_40:
+                        id: id_tier
+                Input_352_40:
+                    id: id_telephone
+                    hint_text: "Tel. Fijo"
+                    text_type: "phone"
+
+            BoxLayoutFull:
+                spacing: 24
+                Spinner_352_40:
+                    id: id_gender
+                Input_352_40:
+                    id: id_cellphone
+                    hint_text: "Tel. Celular 1"
+                    text_type: "cellphone"
+                Input_352_40:
+                    id: id_cellphone2
+                    hint_text: "Tel. Celular 2"
+                    text_type: "cellphone"
+
+            BoxLayoutFull:
+                spacing: 24
+                Spinner_352_40:
+                    id: id_ethnicGroup
+                Spinner_352_40:
+                    id: id_disability
+                Input_352_40:
+                    id: id_email
+                    hint_text: "Email"
+                    text_type: "nothing"
+
+        Label_763_40:
+            id: id_message
+            color: 1, 0, 0, 1
+        Button_352_64:
+            id: id_signInButton
+            text: "Ingresar"
+            top: 800-724
+            x: 863
